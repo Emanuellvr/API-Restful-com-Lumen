@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Pacote extends Model{
 
-    protected $table = 'pacote';
+    protected $table = 'pacotes';
 
     protected $fillable = [
         'nome', 'valor', 'dataInicio', 'dataFim', 'descricao', 'urlImagem', 'site', 'telefone'
